@@ -1,15 +1,15 @@
 package com.epam;
 
-import com.epam.cache.Cache;
+import com.epam.cache.StatisticalCache;
 
 public class Monitor<T> {
 
-	private Cache<T> cache;
+	private StatisticalCache cache;
 
-	public Monitor(Cache<T> cache) {
+	public Monitor(StatisticalCache cache) {
 		this.cache = cache;
 	}
-	
+
 	public void printInfo() {
 		System.out.println("Cache info:");
 		for (String key : cache.getKeys()) {
@@ -18,5 +18,5 @@ public class Monitor<T> {
 			System.out.println("Number of hits: " + cache.getNumHits(key));
 		}
 	}
-	
+
 }
