@@ -1,4 +1,4 @@
-package com.epam.cache;
+package com.cache;
 
 import java.util.WeakHashMap;
 

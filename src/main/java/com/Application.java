@@ -1,11 +1,11 @@
-package com.epam;
+package com;
 
-import com.epam.cache.BasicCache;
-import com.epam.cache.Cache;
-import com.epam.cache.DefaultLotteryWinnerCache;
-import com.epam.cache.DefaultStatisticalCache;
-import com.epam.cache.LotteryWinnerCache;
-import com.epam.cache.StatisticalCache;
+import com.cache.BasicCache;
+import com.cache.Cache;
+import com.cache.DefaultLotteryWinnerCache;
+import com.cache.DefaultStatisticalCache;
+import com.cache.LotteryWinnerCache;
+import com.cache.StatisticalCache;
 
 public class Application {
 

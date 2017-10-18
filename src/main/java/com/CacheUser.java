@@ -1,6 +1,6 @@
-package com.epam;
+package com;
 
-import com.epam.cache.Cache;
+import com.cache.Cache;
 
 public class CacheUser {
 

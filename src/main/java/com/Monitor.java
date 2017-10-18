@@ -1,6 +1,6 @@
-package com.epam;
+package com;
 
-import com.epam.cache.StatisticalCache;
+import com.cache.StatisticalCache;
 
 public class Monitor<T> {
 

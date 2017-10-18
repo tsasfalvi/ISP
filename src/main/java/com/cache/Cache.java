@@ -1,4 +1,4 @@
-package com.epam.cache;
+package com.cache;
 
 public interface Cache<T> {
 
